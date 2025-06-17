@@ -5,13 +5,13 @@ import { getAuth } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-auth
 
 // Configuração do Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyCfHEIDimS6sMNYW8uGUGvhpBdd4awjqMQ",
-  authDomain: "petfinder-78c94.firebaseapp.com",
-  projectId: "petfinder-78c94",
-  storageBucket: "petfinder-78c94.appspot.com", 
-  messagingSenderId: "271253942830",
-  appId: "1:271253942830:web:814a4fe657d2b8a9c425bf",
-  measurementId: "G-9BD9LSGSM5"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "", 
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 
 // Inicializa Firebase
