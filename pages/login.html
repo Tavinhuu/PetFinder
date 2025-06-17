@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - PetFinder</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header class="navbar">
+    <div class="navbar-container">
+      <a href="" class="logo">
+        <img src="../images/logo.png" alt="PetFinder Logo" />
+      </a>
+      <div>
+        <ul class="navbar-ul">
+          <li class="navbar-li">
+            <a href="homepage.html" class="navbar-a">
+              Desaparecidos
+            </a>
+          </li>
+
+          <li class="navbar-li">
+            <a href="login.html" class="button">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <div style="padding-top: 5%;"></div>
+  <main class="login-container">
+  <div class="login-card">
+    <img src="../images/logo.png" alt="PetFinder Logo" />
+    <p class="subtitle">Acesse sua conta ou crie uma nova!</p>
+
+    <form id="authForm">
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="senha" placeholder="Senha" required />
+      <div class="button-group">
+        <button type="submit" id="btnLogin" class="btn-login">Login</button>
+        <button type="button" id="btnCadastro" class="btn-register">Cadastrar</button>
+      </div>
+    </form>
+
+    <p id="status" class="status-message"></p>
+    <a href="homepage.html" class="back-link">← Voltar</a>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="footer-container">
+    <img src="../images/logo.png" alt="PetFinder Logo" class="footer-logo" />
+    <p>&copy; 2025 PetFinder. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+
+  <script type="module" src="../login.js"></script>
+</body>
+</html>

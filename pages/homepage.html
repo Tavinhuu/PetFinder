@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetFinder - Desaparecidos</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="navbar-container">
+      <a href="" class="logo">
+        <img src="../images/logo.png" alt="PetFinder Logo" />
+      </a>
+      <div>
+        <ul class="navbar-ul">
+          <li class="navbar-li">
+            <a href="homepage.html" class="navbar-a">
+              Desaparecidos
+            </a>
+          </li>
+          
+          <li class="navbar-li" id="inboxLink" style="display: none;">
+            <a href="inbox.html" class="navbar-a">Inbox</a>
+          </li>
+
+          <li class="navbar-li" id="myPetsLink" style="display: none;">
+            <a href="my-pets.html" class="navbar-a">Meus Pets</a>
+          </li>
+
+
+          <li class="navbar-li" id="authControl">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- 🔍 Área de Filtro -->
+  <div style="padding-top: 10%;">
+    <div id="filtros" class="filter-container">
+      <input type="text" id="filtroNome" class="filter-input" placeholder="Filtrar por nome" />
+      <input type="text" id="filtroRaca" class="filter-input" placeholder="Filtrar por raça" />
+      <input type="text" id="filtroLocal" class="filter-input" placeholder="Filtrar por local" />
+      <button id="btnFiltrar" class="filter-button">Filtrar</button>
+      <button id="btnLimpar" class="filter-button">Limpar</button>
+    </div>
+  </div>
+
+  
+
+  <center>
+    <img src="../images/ad.png" alt="PetFinder Logo" style="width: 50%;padding-top: 3%;" />
+    <div id="listaPets" style="padding-top: 3%;">Aguarde... </div>
+  </center>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <img src="../images/logo.png" alt="PetFinder Logo" class="footer-logo" />
+      <p>&copy; 2025 PetFinder. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+
+  <script type="module" src="../homepage.js"></script>
+</body>
+
+</html>
