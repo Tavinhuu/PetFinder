@@ -36,7 +36,7 @@ Oferecer uma solução acessível e moderna para reduzir o número de animais pe
 - JavaScript ES6
 - Firebase (Authentication, Firestore, Hosting)
 - HTML5 e CSS3
-- Node.js + npm
+- Node.js + express
 
 ---
 
