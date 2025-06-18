@@ -16,7 +16,7 @@ import {
 const divLista = document.getElementById('listaMeusPets');
 const btnLogout = document.getElementById('btnLogout');
 
-// Proteção de acesso e carregar pets
+
 onAuthStateChanged(auth, async (user) => {
   if (!user) {
     window.location.href = 'login.html';
@@ -61,7 +61,7 @@ onAuthStateChanged(auth, async (user) => {
   }
 });
 
-// Eventos para marcar encontrado e deletar
+
 document.addEventListener('click', async (e) => {
   // Marcar pet como encontrado
   if (e.target.classList.contains('btn-found')) {
@@ -79,7 +79,7 @@ document.addEventListener('click', async (e) => {
     }
   }
 
-  // Deletar pet
+
   if (e.target.classList.contains('btn-delete')) {
     e.preventDefault(); // previne ação padrão do <a>
     const petId = e.target.getAttribute('data-id');
@@ -97,7 +97,7 @@ document.addEventListener('click', async (e) => {
   }
 });
 
-// Logout
+
 btnLogout.addEventListener('click', async () => {
   await signOut(auth);
   window.location.href = 'login.html';
