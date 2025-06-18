@@ -83,8 +83,8 @@ onAuthStateChanged(auth, async (user) => {
     container.innerHTML = html;
 
   } catch (err) {
-    console.error('Error loading messages:', err);
-    container.innerHTML = '<p>Error loading your messages.</p>';
+    console.error('Erro ao carregar mensagens:', err);
+    container.innerHTML = '<p>Erro ao carregar mensagens.</p>';
   }
 });
 
@@ -111,11 +111,11 @@ document.addEventListener('submit', async (e) => {
         message,
         createdAt: new Date()
       });
-      alert('✅ Reply sent!');
+      alert('Resposta enviada!');
       form.reset();
     } catch (err) {
-      console.error('Error sending reply:', err);
-      alert('❌ Error sending reply');
+      console.error('Erro ao enviar:', err);
+      alert('Erro ao enviar resposta');
     }
   }
 });
