@@ -11,10 +11,10 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Firebase-Backend-orange?logo=firebase&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS-Styling-blue?logo=css3&logoColor=white" />
   <img src="https://img.shields.io/badge/HTML-5-red?logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/Node.js-NPM-green?logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firebase-Database-orange?logo=firebase&logoColor=white" />
 </p>
 
 ---
